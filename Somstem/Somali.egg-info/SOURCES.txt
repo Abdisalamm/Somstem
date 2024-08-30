@@ -1,0 +1,5 @@
+setup.py
+Somali.egg-info/PKG-INFO
+Somali.egg-info/SOURCES.txt
+Somali.egg-info/dependency_links.txt
+Somali.egg-info/top_level.txt
