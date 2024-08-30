@@ -113,7 +113,7 @@ The dataset folder contians our benchmark dataset namely 'corpus.txt' this datas
 To evaluate our current stemmer's performance import basic libraries and follow these steps:
 - Copy evaluate.py into your project directory, together with 'Somstem' folder.
 - Run evaluate.py it uses tenfold cross-validation
-- Use the corpus text file which is our benchmark dataset.
+- Use the corpus.txt file which is our benchmark dataset.
 - If you need to stem words, please run the main.py file, enter words of your choice, and see the results.
 
 > [!IMPORTANT]
