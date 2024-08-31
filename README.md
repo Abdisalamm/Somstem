@@ -1,4 +1,4 @@
-## Main repository files
+## Main files
 - somali.py : is where the rules are designed, it can be found inside Somstem folder.
 - main.py : is the file you need to run to stem words.
 - evaluate.py : contains the script to calculate the accuracy, it calculates csw/twc ( Correctly stemmed words/Total words in the corpus) using tenfold cross-validation
