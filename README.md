@@ -58,7 +58,7 @@ print(my_new_words)  #Now, the my_new_words are the stemmed words, we can contin
  ```
  import nltk
  nltk.download('punkt_tab') 
- from Somstem.Somali  import SomStemmerImpl
+ from Somstem.Somali import SomStemmerImpl
 import re
 stemmer = SomStemmerImpl()
 while True:
@@ -81,7 +81,7 @@ while True:
  ```
   import nltk
   nltk.download('punkt_tab') 
-  from drive.MyDrive.Somstem.Somali import  SomStemmerImpl
+  from drive.MyDrive.Somstem.Somali import SomStemmerImpl
 import re
 stemmer = SomStemmerImpl()
 while True:
