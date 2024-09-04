@@ -124,6 +124,6 @@ To evaluate our current stemmer's performance import basic libraries and follow 
   2. main.py : use this file to stem words as it has the rules imported (is where you enter text to stem), copy this file into your project dircetory.
   3. You could also use our benchmark dataset 'corpus.txt'.
 
-#Version 1.0
+# Version 1.0
 
 
