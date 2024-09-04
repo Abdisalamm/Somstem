@@ -35,7 +35,7 @@ Example in my case: !pip install /content/drive/MyDrive/Somstem/dist/Somali-1.0-
 
  ```
     import nltk
-   nltk.download('punkt_tab')    #Add NLTK 
+   nltk.download('punkt_tab')    
    from Somstem.Somali import SomStemmerImpl
 
  import re
@@ -57,7 +57,7 @@ print(my_new_words)  #Now, the my_new_words are the stemmed words, we can contin
 
  ```
  import nltk
- nltk.download('punkt_tab') #Add NLTK
+ nltk.download('punkt_tab') 
  from Somstem.Somali  import SomStemmerImpl
 import re
 stemmer = SomStemmerImpl()
@@ -80,7 +80,7 @@ while True:
 
  ```
   import nltk
-  nltk.download('punkt_tab') #Add NLTK
+  nltk.download('punkt_tab') 
   from drive.MyDrive.Somstem.Somali import  SomStemmerImpl
 import re
 stemmer = SomStemmerImpl()
