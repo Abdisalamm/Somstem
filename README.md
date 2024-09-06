@@ -1,7 +1,7 @@
 ## Main files
 - somali.py : is where the rules are designed, it can be found inside Somstem folder.
 - main.py : is the file you need to run to stem words.
-- evaluate.py : contains the script to calculate the accuracy, it calculates csw/twc ( Correctly stemmed words/Total words in the corpus) using tenfold cross-validation
+- evaluation.py : contains the script to calculate the accuracy, it calculates csw/twc ( Correctly stemmed words/Total words in the corpus) using tenfold cross-validation
 - dataset : contains our benchmark dataset 'corpus.txt'.
 
 > [!NOTE]
@@ -111,8 +111,8 @@ The dataset folder contians our benchmark dataset namely 'corpus.txt' this datas
 
 ## Evaluation
 To evaluate our current stemmer's performance import basic libraries and follow these steps:
-- Copy evaluate.py into your project directory, together with 'Somstem' folder.
-- Run evaluate.py it uses tenfold cross-validation
+- Copy evaluateion.py into your project directory, together with 'Somstem' folder.
+- Run evaluation.py it uses tenfold cross-validation
 - Use the corpus.txt file which is our benchmark dataset.
 - If you need to stem words, please run the main.py file, enter words of your choice, and see the results.
 
