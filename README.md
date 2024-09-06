@@ -43,7 +43,7 @@ Example in my case: !pip install /content/drive/MyDrive/Somstem/dist/Somali-1.0-
  with open("corpus", "r", encoding="utf-8") as file:
     som_word = file.read()
 words = re.findall(r'\b\w+\b', som_word)
-stemmer = SomStemmerImpl()
+stemmer = SomStemmermain()
 my_new_words = []
 for word in words:
    processed_word = re.sub(r'^[^a-zA-Z]+|[^a-zA-Z]+$', '', word.lower()) 
@@ -60,7 +60,7 @@ print(my_new_words)  #Now, the my_new_words are the stemmed words, we can contin
  nltk.download('punkt_tab') 
  from Somstem.Somali import SomStemmermain
 import re
-stemmer = SomStemmerImpl()
+stemmer = SomStemmermain()
 while True:
     input_word = input("Enter a word to stem: ")
     if input_word.lower() == 'exit':
@@ -83,7 +83,7 @@ while True:
   nltk.download('punkt_tab') 
   from drive.MyDrive.Somstem.Somali import SomStemmermain
 import re
-stemmer = SomStemmerImpl()
+stemmer = SomStemmermain()
 while True:
     input_word = input("Enter a word to stem: ")
     if input_word.lower() == 'exit':
