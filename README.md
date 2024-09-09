@@ -12,7 +12,7 @@
     3. Copy the "Somstem" folder from Somstem-main\Somstem-main, directory.
     4. Place the "Somstem" folder in your project directory.
     5. In your editor, open the terminal and run the following command: pip install Somstem\dist\Somali-1.0-py3-none-any.whl 
-
+     The used editor, in this project is the PyCharm editor.
 
 In step 5 make sure, the path is correct.
 
