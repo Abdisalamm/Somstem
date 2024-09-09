@@ -110,7 +110,7 @@ We will always be available to help if you have any questions while using this s
 
   
 ## Dataset
-The dataset folder contians our benchmark dataset namely 'corpus.txt' this dataset maybe used for further investigations:
+The dataset folder contians our benchmark dataset namely 'corpus.txt' this dataset maybe used for further investigations. Soon we will add the link to the other datasets, dictionaries etc.
 
 ## Evaluation
 To evaluate our current stemmer's performance import basic libraries and follow these steps:
